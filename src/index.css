@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Playfair+Display&display=swap');
 
+* {
+    scroll-behavior: smooth;
+}
+
 .App {
     font-family: 'Manrope', sans-serif;
 }
