@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Playfair+Display&display=swap');
+
+.App {
+    font-family: 'Manrope', sans-serif;
+}
+
+.gradient_text{
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+#topLine{
+    width: 38px;
+    height: 3px;
+    left: 196px;
+    top: 1106px;
+
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+}
+
+#home{
+    background:-moz-linear-gradient(148deg, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 50%, rgba(4, 12, 24, 1) 100%); 
+    background:-webkit-linear-gradient(148deg, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 50%, rgba(4, 12, 24, 1) 100%);
+    background:-o-linear-gradient(148deg, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 50%, rgba(4, 12, 24, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#040C18', endColorstr='#002853', GradientType=1 );
+    background:-ms-linear-gradient(148deg, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 50%, rgba(4, 12, 24, 1) 100%);
+    background:linear-gradient(148deg, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 50%, rgba(4, 12, 24, 1) 100%);
+}
+
+#openAi{
+    background:-moz-radial-gradient(circle at 0% 55%, rgba(7, 50, 95, 1) 0%, rgba(4, 12, 24, 1) 45%);
+    background:-webkit-radial-gradient(circle at 0% 55%, rgba(7, 50, 95, 1) 0%, rgba(4, 12, 24, 1) 45%);
+    background:-o-radial-gradient(circle at 0% 55%, rgba(7, 50, 95, 1) 0%, rgba(4, 12, 24, 1) 45%);
+    background:-ms-radial-gradient(circle at 0% 55%, rgba(7, 50, 95, 1) 0%, rgba(4, 12, 24, 1) 45%);
+    background:radial-gradient(circle at 0% 55%, rgba(7, 50, 95, 1) 0%, rgba(4, 12, 24, 1) 45%);
+}
+
+
+#caseStudies{
+    background:-moz-radial-gradient(circle at 100% 50%, rgba(7, 50, 95, 1) 0%, rgba(4, 12, 24, 1) 38%);
+    background:-webkit-radial-gradient(circle at 100% 50%, rgba(7, 50, 95, 1) 0%, rgba(4, 12, 24, 1) 38%);
+    background:-o-radial-gradient(circle at 100% 50%, rgba(7, 50, 95, 1) 0%, rgba(4, 12, 24, 1) 38%);
+    background:-ms-radial-gradient(circle at 100% 50%, rgba(7, 50, 95, 1) 0%, rgba(4, 12, 24, 1) 38%);
+    background:radial-gradient(circle at 100% 50%, rgba(7, 50, 95, 1) 0%, rgba(4, 12, 24, 1) 38%);
+}
