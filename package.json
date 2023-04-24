@@ -2,13 +2,12 @@
   "name": "gpt-3",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://lokmaneghedied.github.io/gpt-3",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -16,7 +16,7 @@ const CaseStudies = () => {
                     <p className="text-[10px] md:text-[15px] text-[#71E5FF]">Request Early Access to Get Started</p>
                     <h2 className={subtitleClass}>The possibilities are beyond your imagination</h2>
                     <p className='text-[#81AFDD] text-[10px] md:text-[15px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde reiciendis sint, animi provident impedit, nam pariatur sed dicta esse consequatur eaque natus deserunt, rerum saepe ipsum sequi aliquid! Beatae.</p>
-                    <p className='text-[#FF8A71] text-[10px] md:text-[15px]'>Request Early Access to Get Started</p>
+                    <p className='text-[#FF8A71] text-[10px] md:text-[15px] cursor-pointer'>Request Early Access to Get Started</p>
                 </div>
             </div>
             <div className='grid place-self-center lg:flex lg:justify-around space-y-4 w-10/12 gradient-bg p-6'>

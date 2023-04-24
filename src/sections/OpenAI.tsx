@@ -8,7 +8,7 @@ const OpenAI = () => {
             <div className="md:place-self-center lg:flex lg:justify-center lg:items-start md:w-11/12 xl:w-10/12 text-white space-y-6 lg:space-y-0 px-4 md:px-0">
                 <div className="lg:w-2/5 space-y-2 lg:space-y-4 lg:pt-4 ">
                     <h2 className='gradient_text font-extrabold text-[20px] md:text-[25px] lg:text-30px]'>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h2>
-                    <p className='text-[#FF8A71] text-[10px] md:text-[15px]'>Request Early Access to Get Started</p>
+                    <p className='text-[#FF8A71] text-[10px] md:text-[15px] cursor-pointer'>Request Early Access to Get Started</p>
                 </div>
                 <div className="lg:w-3/5 space-y-10 ">
                     <div className='md:flex md:justify-around md:items-center '>

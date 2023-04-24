@@ -21,7 +21,7 @@ const WhatIsGPT = () => {
                 <div className='grid md:grid-cols-3 w-full '>
                     <h2 className='text-[20px] md:text-[25px] xl:text-[30px] font-extrabold gradient_text md:col-span-2'>The possibilities are beyond your imagination</h2>
                     <span className='md:place-self-center pt-2 md:pt-0'>
-                        <p className='text-[#FF8A71] text-[10px] md:text-[15px]'>Explore The Library</p>
+                        <p className='text-[#FF8A71] text-[10px] md:text-[15px] cursor-pointer'>Explore The Library</p>
                     </span>
                 </div>
                 <div className='grid md:grid-cols-3 w-full space-y-4 md:space-y-0'>
